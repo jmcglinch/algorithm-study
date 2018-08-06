@@ -191,7 +191,7 @@ void merge_sort(int *arr, int n)
  * 3. Loop over original array and put incremented value to index of new array.
  *    The new array index is the loop index of the original array.
  *    Increment this value as a way to handle duplicates.
- * 4. When you print the new array, simple print the index for the number of times it was incremented.
+ * 4. When you print the new array, simply print the index for the number of times it was incremented.
  */
 void bucket_sort(const int *arr, int n, int *out)
 {
